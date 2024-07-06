@@ -1,0 +1,50 @@
+@import url(./var.css);
+
+.body-heading-c,
+.body-heading-l{
+    display: grid;
+    justify-content: center;
+    gap: 0px;
+    font-weight: var(--fw-mid);
+    font-size: var(fs-heading);
+    text-transform: capitalize;
+}
+.body-heading-l{
+    justify-content: start;
+}
+.body-heading-c::after,
+.body-heading-l::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: var(--lg-heading);
+}
+
+.page-heading{
+    font-family: var(--ff-thick);
+    font-weight: var(--fw-mid);
+    color: var(--black);
+    font-size: var(--fs-heading);
+}
+/* buttons */
+.ibdrhn_btn{
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.btn-fill{
+    background-color: var(--black);
+    color: var(--white) !important;
+}
+.btn-outline{
+    color: var(--black);
+    border: var(--b-btn);
+}
+.active{
+    border-radius: 50px;
+    outline: var(--b-body);
+}

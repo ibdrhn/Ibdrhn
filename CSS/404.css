@@ -1,0 +1,58 @@
+@import url(./var.css);
+.ibdrhn_backup{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+.bucnt{
+    display: grid;
+    gap: 10px;
+}
+
+.bucnt .ibdrhn_btn{
+    justify-self: flex-start;
+}
+figure img{
+    width: 100%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+}
+
+
+footer{
+    width: 100%;
+    border-top: var(--b-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--b-body);
+    color: var(--black-50);
+}
+footer a{
+    text-decoration: underline;
+    color: var(--black);
+}
+
+/* media queries for 404 pages */
+@media screen and (max-width: 500px){
+    main{
+        display: block;
+    }
+    .ibdrhn_backup{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    footer{
+        font-size: 10px;
+        padding: 10px;
+    }
+}
