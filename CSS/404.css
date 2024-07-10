@@ -32,7 +32,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: var(--b-body);
+    font-size: var(--b-body-sml);
     color: var(--black-50);
 }
 footer a{
