@@ -1,0 +1,98 @@
+@import url(./var.css);
+
+@media screen and (max-width: 500px) {
+    header {
+        display: flex !important;
+        flex-direction: column;
+        font-size: 10px;
+        padding: 20px;
+    }
+
+    header .ibdrhn_btn {
+        display: none;
+    }
+
+    .ibdrhn_hero {
+        width: 100% !important;
+        padding-inline: 20px;
+    }
+
+    .ibdrhn_startup,
+    .proccess_wrapper {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .ibdrhn_startup .startup_box {
+        width: 100%;
+    }
+
+    .proccess_wrapper {
+        flex-direction: column;
+    }
+
+    .ibdrhn_info {
+        text-align: left;
+    }
+
+    .more_info {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer .ibdrhn_links {
+        flex-direction: column;
+    }
+
+    .ibdrhn_links .ibdrhn_intro {
+        width: 100%;
+        padding-block: 15px;
+    }
+
+    footer nav {
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        gap: 10px;
+    }
+
+    footer .ibdrhn_intro {
+        width: 100%;
+    }
+
+    footer .footbar {
+        border-top: var(--b-body);
+        padding-block: 10px;
+    }
+
+    /* about us page */
+    .ibdrhn-container{
+        padding-inline: 20px;
+    }
+    .ibdrhn-container figure{
+        min-width: 100%;
+    }
+    .ibdrhn-container figure .img1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+    }
+
+    .ibdrhn_form-wrapper{
+        width: 100%;
+        padding: 20px;
+    }
+    .ibdrhn_form-wrapper .ibdrhn-email-box{
+        flex-direction: column;
+        align-items: start;
+    }
+    form#ibdrhn-form{
+        width: 100%;
+    }
+}

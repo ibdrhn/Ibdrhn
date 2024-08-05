@@ -1,0 +1,82 @@
+@import url(./var.css);
+
+*::selection{
+    background: var(--primary);
+    color: var(--white);
+}
+
+.body-heading-c {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    font-weight: var(--fw-mid);
+    font-size: var(--fs-heading);
+    text-transform: capitalize;
+    flex-direction: column;
+}
+.body-heading-l{
+    display: grid;
+    justify-content: start;
+    gap: 0px;
+    font-weight: var(--fw-mid);
+    font-size: var(fs-heading);
+    text-transform: capitalize;
+}
+.body-heading-c::after,
+.body-heading-l::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: var(--lg-heading);
+}
+
+.page-heading{
+    font-family: var(--ff-thick);
+    font-weight: var(--fw-mid);
+    color: var(--black);
+    font-size: var(--fs-heading);
+}
+
+.subheading{
+    font-family: var(--ff-thin);
+    font-weight: normal;
+    font-size: var(--fs-subheading);
+    text-transform: capitalize;
+}
+/* buttons */
+.ibdrhn_btn{
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn-fill{
+    background-color: var(--black);
+    color: var(--white) !important;
+}
+.btn-outline{
+    color: var(--black);
+    outline: var(--b-btn);
+    outline-offset: -2px;
+}
+.active{
+    border-radius: 50px;
+    outline: var(--b-body);
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    padding: 10px;
+}
+.icon svg{
+    width: 25px;
+    height: 25px;
+}

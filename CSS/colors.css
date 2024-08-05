@@ -1,0 +1,37 @@
+@import url(./var.css);
+
+.cl_primary{
+    color: var(--primary);
+}
+.cl_secondary{
+    color: var(--secondary);
+}
+.cl_accent{
+    color: var(--accent);
+}
+.cl_mark{
+    color: var(--mark);
+}
+.cl_black{
+    color: var(--black);
+}
+.cl_black-50{
+    color: var(--black-50);
+}
+.cl_white{
+    color: var(--white);
+}
+
+
+.bg_primary{
+    background-color: var(--primary);
+}
+.bg_secondary{
+    background-color: var(--secondary);
+}
+.bg_accent{
+    background-color: var(--accent);
+}
+.bg_mark{
+    background-color: var(--mark);
+}
