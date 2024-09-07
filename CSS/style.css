@@ -124,6 +124,12 @@ header .navbar a {
     display: grid;
     gap: 5px;
 }
+.startup_item > .ibdrhn_btn{
+    width: max-content;
+    height: max-content;
+}
+
+/* Process section starts */
 .proccess_wrapper{
     width: 100%;
     padding: 30px;
