@@ -317,6 +317,8 @@ form#ibdrhn-form .input-box textarea{
     object-fit: cover;
 }
 .updates_card .link_btn{
+    width: fit-content;
+    height: max-content;
     text-decoration: underline;
     color: var(--black-50);
     font-size: var(--fs-body);
