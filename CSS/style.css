@@ -193,6 +193,9 @@ footer .ibdrhn_intro{
 .footbar{
     list-style-type: none;
 }
+.footbar > .footbar_heading{
+    font-size: var(--fs-body);
+}
 .footbar li{
     text-transform: capitalize;
 }

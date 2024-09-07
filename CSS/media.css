@@ -95,4 +95,7 @@
     form#ibdrhn-form{
         width: 100%;
     }
+    .footbar > .footbar_heading{
+        font-size: var(--fs-sml-body);
+    }
 }
