@@ -195,7 +195,7 @@ footer .ibdrhn_intro{
 }
 .footbar > .footbar_heading{
     font-size: var(--fs-body);
-    font-weight: var(--fw-light);
+    font-weight: var(--fw-mid);
 }
 .footbar li{
     text-transform: capitalize;
