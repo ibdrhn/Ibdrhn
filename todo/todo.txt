@@ -1,0 +1,12 @@
+To do list of this website for its next improvement
+
+- Ensure the whole website is accessible for anyone ( use tools like accissibily.com for identifyign where to make accissibily changes)
+- Implement the new website design to the entire website
+- Make sure the code is written in semantic HTML and CSS BEM method
+- Make the "./CSS/utl.css" maintable
+-- Use BEM to create custom classess
+- Resize the content and make them up-to-date
+- Change the images
+- Connect the forms to Netlify Forms and ensure they are being submitted properly
+
+/ IF the update is done, please creat and send the test__result.docs to "ibdrhn.real@gamil.com"/

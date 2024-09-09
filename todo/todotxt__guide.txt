@@ -1,0 +1,9 @@
+File extension name: filename.txt
+Version: 1.0.0
+------------------------------------------------
+All the instructions are here
+------------------------------------------------
+
+"" -- Doubble quote -- means a link or email
+///\\\ -- 3 forward and backward - means something important is bring wraped
+<> -- code -- reference
